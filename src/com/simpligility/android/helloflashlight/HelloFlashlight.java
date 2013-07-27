@@ -7,13 +7,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TableLayout;
 
+import com.actionbarsherlock.app.SherlockActivity;
+
 /**
  * HelloFlashlight is a sample application for the usage of the Maven Android Plugin.
  * The code is trivial and not the focus of this example and therefore not really documented.
  *
  * @author Manfred Moser <manfred@simpligility.com>
  */
-public class HelloFlashlight extends Activity {
+public class HelloFlashlight extends SherlockActivity {
 
 	TableLayout table;
 	Button redButton;
